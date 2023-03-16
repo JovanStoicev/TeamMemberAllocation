@@ -1,5 +1,5 @@
-const Teams = ({selectedTeam, handleTeamSelectionChange}) => {
- // console.log(selectedTeam, handleTeamSelectionChange);
+const Teams = ({ selectedTeam, handleTeamSelectionChange }) => {
+  // console.log(selectedTeam, handleTeamSelectionChange);
   return (
     <select className="form-select form-select-lg" value={selectedTeam} onChange={handleTeamSelectionChange}>
       <option value="TeamA">Team A</option>
